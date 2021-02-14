@@ -1,6 +1,6 @@
 
-//let name = 
-//prompt('    Please Enter Your Name')
+let name = 
+prompt('    Please Enter Your Name')
 
 
 function opennav(){
