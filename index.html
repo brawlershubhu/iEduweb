@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="cont">
+    <section class="nav">
+      <div id="header" class="header">
+        <span class="openbtn" onclick="opennav()">&#9776;</span>
+        <a class="splink" href="#">
+          <h1 class="mainheading" href="#">EduWeb</h1>
+        </a>
+      </div>
+      <nav class="navbar">
+        <!--<button class="closebtn" onclick="closenav()" class="closebtn">close</button>-->
+        <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+        <a href="#" class="links">about us</a>
+        <a href="#" class="links">your profile</a>
+        <a href="#" class="links">get subscription</a>
+        <a href="#" class="links">our clients</a>
+        <a href="#" class="links">Notifications</a>
+        <a href="#" class="links">Competitions</a>
+        <a href="#" class="links">Scholarships</a>
+        <a href="#" class="links">Get certified</a>
+        <a href="#" class="links">Contact your teacher</a>
+        <a href="#" class="links">Your batch</a>
+      </nav>
+    </section>
+    <section class="homescreen">
+      <div class="greet">
+        <p id="grttxt"></p>
+      </div>
+      <div class="courses">
+        <p id="coretxt">what would you like to learn today</p>
+        <p class="subheading">Science</p>
+        <div class="science">
+          <div class="phy tabs"><img src="physics_icon.jpg" alt="" class="tabimg">
+            <p class="tabheading">Physics</p>
+            <p class="tabtext">Lorem ipsum dolor sit amet, consectetur adipisicing elitrum ipsam minima delectus, iusto unde.</p>
+          </div>
+          <div class="ch tabs"><img src="Ch.jpg" alt="" class="tabimg">
+            <p class="tabheading">Chemistry</p>
+            <p class="tabtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo, debitis ad?</p>
+          </div>
+          <div class="bio tabs"><img src="Bio.jpg" alt="" class="tabimg">
+            <p class="tabheading">Biology</p>
+            <p class="tabtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo, debitis ad?</p>
+          </div>
+        </div>
+        <p class="subheading">Mathematics</p>
+        <div class="courses2">
+          <div id="maths">
+            <div class="alg tabs">
+              <img src="alg.jpg" alt="" class="tabimg">
+              <p class="tabheading">Algebra</p>
+              <p class="tabtext">Lorem ipsum dolor sit amet, consectettiae aliquam, illum quas vitae dolor pariatur laudantium.</p>
+            </div>
+            <div class="geo tabs">
+              <img src="Geo.jpg" alt="" class="tabimg">
+              <p class="tabheading">Geometry</p>
+              <p class="tabtext">Lorem ipsum dolor sit amet, consectettiae aliquam, illum quas vitae dolor pariatur laudantium.</p>
+            </div>
+            <div class="trig tabs">
+              <img src="Icon-Trigonometry.jpg" alt="" class="tabimg">
+              <p class="tabheading">Trigonometry</p>
+              <p class="tabtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore sapiente architecto, nisi, iusto natus.</p>
+            </div>
+            <div class="calculus tabs">
+              <img src="Calcu.jpg" alt="" class="tabimg">
+              <p class="tabheading">Calculus</p>
+              <p class="tabtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore sapiente architecto, nisi, iusto natus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="doubt">
+          <p class="subheading">Doubt section</p>
+          <div class="doubt tabs">
+            <img src="Doubt.png" alt="" class="tabimg doubtimg">
+            <p class="tabheading">
+              get your doubt solved
+            </p>
+            <p class="tabtext">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed laudantium quo hic.
+            </p>
+          </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+      <div class="footnav">
+        <a href="#contact" class="footlinks">Contact us</a>
+        <a href="#doubt" class="footlinks">Request more</a>
+        <a href="#" class="footlinks">Troubleshooting</a>
+        <a href="#" class="footlinks">Book a doubt orientation class</a>
+      </div>
+    </section>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
